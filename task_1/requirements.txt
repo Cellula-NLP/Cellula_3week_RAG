@@ -1,0 +1,15 @@
+langchain
+langchain-community
+langchain-openai
+langchain-core
+langchain-text-splitters
+langchain-huggingface
+chromadb
+sentence-transformers>=3.0.0,<4.0.0
+torch
+transformers>=4.41.0,<4.53.0
+numpy<2
+openai
+tiktoken
+pypdf
+python-dotenv
