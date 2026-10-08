@@ -30,8 +30,10 @@ class RAGPipeline:
         Answer the user's question based ONLY on the provided context.
         If you do not know the answer based on the context, simply say "I don't have enough information to answer that."
 
-        IMPORTANT: Do NOT include footnote citations like 【1†L1-L3】 in your answer. 
-        Just provide the answer naturally.
+        When answering about projects, experience, or certifications, be SPECIFIC — 
+        list the actual project names, companies, or credentials found in the context.
+
+        IMPORTANT: Do NOT include footnote citations like 【1†L1-L3】 in your answer.
 
         Context: {context}
 
